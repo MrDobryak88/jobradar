@@ -7,12 +7,11 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <!-- Бери последнюю патч-версию ветки 3.5.x с start.spring.io / Maven Central -->
         <version>3.5.0</version>
         <relativePath/>
     </parent>
 
-    <groupId>dev.MrDobryak88</groupId>
+    <groupId>dev.MrDobryak</groupId>
     <artifactId>jobradar</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>jobradar</name>
@@ -20,7 +19,7 @@
 
     <properties>
         <java.version>21</java.version>
-        <springdoc.version>3.1.1</springdoc.version>
+        <springdoc.version>2.8.9</springdoc.version>
         <poi.version>5.5.1</poi.version>
         <opencsv.version>5.12.0</opencsv.version>
         <jacoco.version>0.8.15</jacoco.version>
